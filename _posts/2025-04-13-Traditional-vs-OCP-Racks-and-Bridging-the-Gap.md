@@ -63,6 +63,7 @@ This guide explores:
 ---
 
 ### **4. Server Form Factors**  
+
 | Feature            | Traditional Racks             | OCP Racks                      |
 |--------------------|-------------------------------|--------------------------------|
 | **Server Size**    | 1U/2U/4U                      | OCP sleds (21" wide)           |
@@ -73,6 +74,7 @@ This guide explores:
 ---
 
 ### **5. Cost & Deployment**  
+
 | Feature            | Traditional Racks              | OCP Racks                         |
 |--------------------|--------------------------------|-----------------------------------|
 | **Upfront Cost**   | Lower                          | Higher (but better TCO long-term) |
