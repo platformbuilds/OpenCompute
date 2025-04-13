@@ -110,11 +110,12 @@ India’s data center industry is projected to **reach $10B+ by 2027**, driven b
 ---
 
 ### **H. Other States**  
-| **State** | **Key Incentives** | **Challenges** |  
-|-----------|-------------------|---------------|  
-| **Odisha** | 15% capex subsidy | Low fiber infra |  
-| **Rajasthan** | Land at ₹1Cr/acre | Water scarcity |  
-| **Punjab** | 10% employment subsidy | Low demand |  
+
+| **State**     | **Key Incentives**     | **Challenges**  |  
+|---------------|------------------------|-----------------|  
+| **Odisha**    | 15% capex subsidy      | Low fiber infra |  
+| **Rajasthan** | Land at ₹1Cr/acre      | Water scarcity  |  
+| **Punjab**    | 10% employment subsidy | Low demand      |  
 
 
 ---
