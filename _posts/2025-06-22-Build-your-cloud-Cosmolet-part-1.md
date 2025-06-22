@@ -17,7 +17,7 @@ These limitations have forced network engineers into uncomfortable compromises, 
 
 ## Enter Cosmolet: The Game-Changing Solution
 
-**Cosmolet** (Container Service Management and Load-balancing Outlet) is a revolutionary BGP Service Controller designed to liberate Kubernetes networking from these constraints. Built as a lightweight, CNI-agnostic DaemonSet, Cosmolet seamlessly bridges the gap between your Kubernetes services and any BGP-enabled network fabric.
+**Cosmolet** Container Service Management and Load-balancing Outlet a.k.a `cosmolet` is a revolutionary BGP Service Controller designed to liberate Kubernetes networking from these constraints. Built as a lightweight, CNI-agnostic DaemonSet, `cosmolet` seamlessly bridges the gap between your Kubernetes services and any BGP-enabled network fabric.
 
 ### What Makes Cosmolet Different?
 
@@ -40,6 +40,10 @@ Cosmolet leverages **FRR (Free Range Routing)** as its BGP engine, inheriting FR
 - **Dual-stack operation** supporting both IPv4 and IPv6 simultaneously  
 - **Modern BGP extensions** including BGP-4+ and extended nexthop capabilities
 - **Fabric-agnostic design** working with any BGP-speaking network infrastructure
+
+**FRR (Free Range Routing)** is also used in the ![SONIC - Software for Open Networking in the Cloud](https://github.com/sonic-net/SONiC)
+
+Refer: ![Github](https://github.com/sonic-net/sonic-frr)
 
 #### `cosmolet` Implementation Logic:
 ![Code Flowchart](../../../assets/images/cosmolet-flowchart.png)
@@ -238,7 +242,6 @@ router bgp 65000
 
 ```bash
 # 1. Deploy via Helm
-helm repo add cosmolet https://charts.cosmolet.io
 helm install cosmolet cosmolet/cosmolet \
   --namespace cosmolet-system \
   --create-namespace
@@ -329,8 +332,8 @@ Whether you're running a greenfield IPv6 data center, managing a complex multi-C
 
 **Ready to break free from CNI constraints?** 
 
-🚀 **Get Started**: [GitHub Repository](https://github.com/your-org/cosmolet)  
-📖 **Documentation**: [Installation Guide](https://cosmolet.io/docs)  
-💬 **Community**: [Discussions](https://github.com/your-org/cosmolet/discussions)  
+🚀 **Get Started**: [GitHub Repository](https://github.com/platformbuilds/cosmolet)  
+📖 **Documentation**: [Installation Guide](https://github.com/platformbuilds/cosmolet/README.md)  
+💬 **Community**: [Discussions](https://github.com/platformbuilds/cosmolet/discussions)  
 
-*Cosmolet is open source and available under the Apache 2.0 license. Join the community building the future of CNI-agnostic Kubernetes networking.*
+*Cosmolet is open source and available under the GNU Affero General Public License v3.0 license. Join the community building the future of CNI-agnostic Kubernetes networking.*
