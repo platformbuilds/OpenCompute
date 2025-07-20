@@ -18,8 +18,9 @@ A disaggregated network fabric decouples hardware and software, replacing tradit
 
 ### **Key Components:**  
 - **White-box switches** (commodity hardware from ODMs like Edgecore, Delta, UfiSpace).  
-- **Open NOS options** (SONiC, FRRouting, DANOS) or commercial NOS (Cumulus Linux, Arista EOS).  
+- **Open NOS options** (SONiC, FRRouting, DANOS) or commercial NOS ( [Arrcus ArcOS](https://arrcus.com/connected-edge/arcos) ).
 - **SDN controllers** (ONOS, OpenDaylight) for centralized automation.  
+- **Kubernetes + BGP + Any CNI + Any Network Fabric** [Cosmolet](https://github.com/platformbuilds/cosmolet)
 
 ### **How It Works:**  
 Instead of a single large chassis switch, a **distributed fabric** is built using:  
@@ -33,7 +34,7 @@ This approach enables **granular scaling, better resiliency, and lower costs** c
 ## **Why Are Industries Adopting Disaggregated Fabrics?**  
 
 ### **1. Cost Savings via Commodity Hardware**  
-- White-box switches cost **40–60% less** than proprietary chassis (e.g., Cisco Nexus).  
+- White-box switches cost **40–60% less** than proprietary chassis (e.g., Cisco Nexus, Arista, Mellanox etc.).  
 - **Hyperscalers like Microsoft and Meta** save billions by deploying SONiC on Broadcom-based switches.  
 
 ### **2. No Vendor Lock-In**  
@@ -69,8 +70,8 @@ This approach enables **granular scaling, better resiliency, and lower costs** c
 - **Example:** Google’s **Jupiter network** connects thousands of TPUs with minimal latency.  
 
 ### **4. Financial Services & High-Frequency Trading**  
-- **Use Case:** Ultra-low-latency trading networks.  
-- **Example:** JP Morgan uses **Arista 7130L switches** for nanosecond precision.  
+- **Use Case:** Ultra-low-latency financial switching networks including UPI.
+- **Example:** [NPCI](https://www.npci.org.in/) uses Commodity Switches like Edgecore, UfiSpace with [ArcOS](https://arrcus.com/) and Sonic for [UPI](https://www.npci.org.in/what-we-do/upi/product-overview)
 
 ### **5. Internet Service Providers (ISPs)**  
 - **Use Case:** Disaggregated BNGs, peering routers.  
