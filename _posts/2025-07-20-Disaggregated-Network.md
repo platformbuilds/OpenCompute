@@ -100,10 +100,6 @@ This approach enables **granular scaling, better resiliency, and lower costs** c
 
 ---
 
-Here is your **quick, clear writeup** on building a **basic disaggregated network fabric** in a data center, based on the provided diagram.
-
----
-
 ## **Building a Basic Disaggregated Network Fabric**
 
 ![Basic Disaggregated Fabric HLD](../../../assets/images/disaggregated-fabric-hld-1.png)
