@@ -175,11 +175,11 @@ The provided diagram illustrates a **multi-tier leaf-spine architecture** with:
 
 ### **4. Key Benefits**
 
-✅ **Commodity hardware savings** – no vendor markup
-✅ **Scalable leaf-spine topology** – add switches or servers incrementally
-✅ **Failure isolation** – each switch and host is an independent failure domain
-✅ **Vendor flexibility** – mix and match hardware and software
-✅ **AI/ML ready** – direct high-throughput GPU cluster connectivity
+* ✅ **Commodity hardware savings** – no vendor markup
+* ✅ **Scalable leaf-spine topology** – add switches or servers incrementally
+* ✅ **Failure isolation** – each switch and host is an independent failure domain
+* ✅ **Vendor flexibility** – mix and match hardware and software
+* ✅ **AI/ML ready** – direct high-throughput GPU cluster connectivity
 
 ---
 
@@ -208,12 +208,13 @@ If your industry deals with **massive data growth, strict latency demands, or th
 ---
 
 **What’s Next?**  
-Would you like a technical deep dive into any of these topics? DM me on ![Linkedin](https://www.linkedin.com/in/aarvee11)
+Would you like a technical deep dive into any of these topics? DM me on [Linkedin](https://www.linkedin.com/in/aarvee11)
 
 ---
 
 📝 **Quick Definitions**
 - **NOS:** Network Operating System
 - **ODM:** Original Design Manufacturer
-- **ECMP:** Equal-Cost Multi-Path routing
-- **Cosmolet:** ![Github](https://github.com/platformbuilds/cosmolet)
+- **ECMP:** [Equal-Cost Multi-Path routing](https://www.ietf.org/archive/id/draft-lapukhov-bgp-ecmp-considerations-12.html)
+- **DPDK:** [Data Plane Development Kit](https://en.wikipedia.org/wiki/Data_Plane_Development_Kit)
+- **Cosmolet:** [Github](https://github.com/platformbuilds/cosmolet)
